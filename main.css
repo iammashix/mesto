@@ -919,18 +919,19 @@ template {
   display: block;
 }
 
-.popup__input-error,
-.popup__input-error_type_name,
-.popup__input-error_type_description {
+.popup__input-error {
   font-size: 12px;
   color: #f00;
   transition: 0.3s;
   line-height: normal;
   display: inline-block;
   margin-bottom: 10px;
-  opacity: 0;
+  opacity: 0; /* По умолчанию скрыто */
 }
 
+.popup__input-error_visible {
+  opacity: 1; /* Показать элемент */
+}
 .popup {
   font-family: 'Inter', Arial, sans-serif;
   align-items: center;
