@@ -1,6 +1,6 @@
 import './pages/index.css';
 import initialCards from './cards.js';
-import avatar from './images/avatar.jpg';
+import avatar from './images/avatar.jpeg';
 import { createCard, deleteCard, likeCard } from './components/card.js';
 import { openPopup, closePopup, addOverlayCloseHandler } from './components/modal.js';
 
