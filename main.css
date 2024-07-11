@@ -932,6 +932,7 @@ template {
 .popup__input-error_visible {
   opacity: 1; /* Показать элемент */
 }
+
 .popup {
   font-family: 'Inter', Arial, sans-serif;
   align-items: center;
