@@ -902,6 +902,15 @@ template {
   }
 }
 
+.popup__input_type_error {
+  cursor: default;
+  pointer-events: none;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  opacity: 0.2;
+}
+
 .popup__caption {
   font-size: 12px;
   line-height: 15px;
